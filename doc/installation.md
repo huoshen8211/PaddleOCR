@@ -30,6 +30,9 @@ python3 -m pip install paddlepaddle-gpu==1.7.2.post97 -i https://pypi.tuna.tsing
 如果您的机器安装的是CUDA10，请运行以下命令安装
 python3 -m pip install paddlepaddle-gpu==1.7.2.post107 -i https://pypi.tuna.tsinghua.edu.cn/simple
 
+没有GPU
+python3 -m pip install paddlepaddle==1.7.2 -i https://pypi.tuna.tsinghua.edu.cn/simple
+
 更多的版本需求，请参照[安装文档](https://www.paddlepaddle.org.cn/install/quick)中的说明进行操作。
 ```
 
@@ -41,5 +44,5 @@ git clone https://github.com/PaddlePaddle/PaddleOCR
 4. 安装第三方库
 ```
 cd PaddleOCR
-pip3 install -r requirments.txt
+pip3 install -r requirments.txt  -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
